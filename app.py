@@ -9,7 +9,7 @@ URL_LISTA_GITHUB = "https://appsstudios-oficial.github.io/list/list.m3u"
 
 # --- CREDENCIALES DE ACCESO (Podés cambiarlas cuando quieras) ---
 USUARIO_VALIDO = "vip2026"
-CLAVE_VALIDA = "1234"
+CLAVE_VALIDA = "9876"
 
 # --- TU LANDING PAGE DIRECTA DESDE RENDER ---
 HTML_INDEX = """
