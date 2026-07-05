@@ -1,0 +1,360 @@
+#EXTM3U
+#EXTINF:-1 group-title="Variedades",00 - A24
+https://g4.vxral-slo.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Tv Publica Canal 7
+https://g1.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=ec764f544ab1e8791748d49de9fb4082
+#EXTINF:-1 group-title="Variedades",TN
+https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Cronica Tv 
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1783241986/ei/oshJaoCdIP6k-LAP-JLSEA/ip/2802:8012:c012:5701:c479:337c:3169:74b0/id/JC7f3EUDaqw.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxax4vopj55gb-jgqe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/ARmQxEW-75nlkkDYNNrMmBGpzCW_jiwm-CXhUXtu5WApkQ6s2nqS2_uRiQcYkRwQjYCMgZ2kK9sxgD3u/spc/SQ-umrR2mPO3pGlJzoOsgrP0iiLK9SEoiV1RaNxTs-cYLieiEA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2237500/met/1783220386,/mh/Qh/mm/44/mn/sn-uxax4vopj55gb-jgqe/ms/lva/mv/m/mvi/1/pl/42/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52017147/mt/1783219937/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,reg,playlist_type/sig/AHEqNM4wRAIgBgy4evPXx3YwFbg6qNDDdW0CqdJKZU8NtjplayPghV8CIFn1v2xlgrOH-MylbXZ8Z8pcYODKmd06XdLrWRgrzw3K/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgJPd4fBI11BFQaPw7f__oq082VEUTnjgzXkQgzlBdrhUCIQCWawYHKYc3QI9fXZeEddHCgL2t6AUZqNLLbxITN5XBWQ%3D%3D/playlist/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - LN
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1782627081/ei/qWZAapisL4Py1sQPufyx-AM/ip/2802:8012:c0a6:1501:e1e5:9e21:6da4:d37b/id/FEWZjXJ7M0c.11/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxax4vopj55gb-jgqe.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/gcr/ar/ss/1/bui/ARmQxEW2V1oqkAIsZnt5Vs8ljzMw6cGFb2_BekjqpJwi0FFtMa318g4fC0-vXdJoAYBRrMgwK93A-dYf/spc/SQ-umsIKmb4IM9FGgcoisAkuHtGXsgI0bxaz2mFx8XNVjFGxDQ/vprv/1/reg/0/playlist_type/DVR/hcs/ir/initcwndbps/2172500/met/1782605482,/mh/Ph/mm/44/mn/sn-uxax4vopj55gb-jgqe/ms/lva/mv/m/mvi/2/pl/43/rmhost/rr1---sn-uxax4vopj55gb-jgqe.googlevideo.com/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51565681/mt/1782605074/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,gcr,ss,bui,spc,vprv,reg,playlist_type/sig/AHEqNM4wRgIhANCD80fxbl9yU5ryPPT3QfiL1F7ZM4fY2U0csxzjK4qyAiEAibCGGxr7z5ElfLec5Th6HVIj_SMZaRdLmtuWGKjtUq8%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRAIgD6XEcBYYIe-UwALqUfGjuNU1iHcvd-jaG90UuqwSeUMCIDcrwoyCDGrosRniU-j-jfBm-eZ8e3XXGu-n-9p0w94N/playlist/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - El Nueve 
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1782627025/ei/cWZAapOAG_WT-LAPgobAyQE/ip/2802:8012:c0a6:1501:e1e5:9e21:6da4:d37b/id/C1DhpJ07ZuE.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxax4vopj55gb-jgql.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/gcr/ar/bui/ARmQxEWqsY9Ys7eFO35h1Vdk76a1QPo87xQm74iaA7DXZcDKTK2B9hH0gKQMcU3OWOjipW1yNA5-IFfG/spc/SQ-umhOe08_CiBiUdwuH159rt3Kt1TWK9tUvaXlLJF-ETQug6A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2050000/met/1782605425,/mh/po/mm/44/mn/sn-uxax4vopj55gb-jgql/ms/lva/mv/m/mvi/2/pl/43/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51565682/mt/1782605083/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,gcr,bui,spc,vprv,reg,playlist_type/sig/AHEqNM4wRQIhAMkN_iENxiQKfYLl093Z9qb29_7wTcIWjnZ1m5c0tOSnAiBep85dmZY8Apt-GFO3Dk_aTjQPvA4yFhA6LeeESILM1g%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgJpO6tSYpuAEOqSAKgy339adFOXtVSGYY-tRkDy3j2P4CIFG_5FGv8o4TL5Q9LyFx1Kffs9r7fuwmjWeHj5bIrxL2/playlist/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - El Trece
+http://38.199.4.105:9999/play/a0xo/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Telefe Internacional
+http://181.224.255.210:8001/play/a0q5/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Telefe Argentina
+https://us-b4-p-e-jn18.cdn.mdstrm.com/live-stream-gdai/6a024684fd4ca6a938f3a118/linear/hls/pa/event/ZTApTmdVQWOhwTvIXtIGXQ/stream/62b27e17-d253-4de6-9110-c0b145759af4:ATL/variant/1b42da22ff97bf390d7fe0dbaab7ba1f/bandwidth/1808281.m3u8?aid=69dfb44d09ecc98dc876969f&uid=fjvijXiqKXQ7UBIZjvfjMgIIzDDSvXN6&sid=kVclzTiOGb4YeDiUKqYK0XUPqQWBIltV&pid=6fYuVyl8FmFukhSyHqvojLBYZwnKqi4p&pid_dvr=3NcMngeWXn33xdCNTXztNu64oUumw0S6&ref=https%3A%2F%2Fwww.mitelefe.com%2F&without_cookies=false&listenerid=&dnt=true&access_token=fZwksaTW0MzyEKWfDothC5FS9ecoNfh7msxXPdDz2Jpz2w5ufOAeLgzLx0SomKEyjb5Sbe85PPw&CMCD=cid%3D%226a024684fd4ca6a938f3a118%22%2Cmtp%3D72100%2Cot%3Dm%2Csf%3Dh%2Csid%3D%226fYuVyl8FmFukhSyHqvojLBYZwnKqi4p%22&adInsertionGoogleStreamId=62b27e17-d253-4de6-9110-c0b145759af4%3AATL&es=us-b4-p-e-jn18.cdn.mdstrm.com&ote=1783307051649&ot=uw4A6GWEXlElcpoonrrI2A&proto=https&pz=us
+#EXTINF:-1 group-title="Variedades",Net Tv
+https://unlimited1-saopaulo.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Variedades",Canal 34
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8#ca42174d8b75392e591eeadffbc116ddec126e021eb4f884a66792e54d0c6df6
+#EXTINF:-1 group-title="Variedades",Metro tv
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8#ffdff264784d29a3af10c807144391368e6f7c70386344c1686b5a518a51d2ba
+#EXTINF:-1 group-title="Variedades",RetroPlus
+https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 group-title="Variedades",Tv Retro
+https://live20.bozztv.com/akamaissh101/ssh101/tvretropalm2020/chunks.m3u8
+#EXTINF:-1 group-title="Variedades",Retrox
+https://lbgo.bozztv.com/ssh101/ssh101/retyroxtv/chunks.m3u8
+#EXTINF:-1 group-title="Variedades",Canal Pulpo TV
+https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8#6bfa446c4d8189e79c1d7a400fa2c6ef552c34ae266467fe2b6c8dab8770e67a
+#EXTINF:-1 group-title="Variedades",Canal Next
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+#EXTINF:-1 group-title="Variedades",Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
+#EXTINF:-1 group-title="Variedades",Mega Cine Tv
+https://cnn.hostlagarto.com/megacinetv/playlist.m3u8#8caf8885be83cbf7ff9a2077d0a8fdbcf4408f3956b72f498a18dd4afda36286
+#EXTINF:-1 group-title="Variedades",Canal 21
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8#9bea7125238ec92eb087262a8e1e442c1157c3e4e6fcf00907dd535052ebfbb0
+#EXTINF:-1 group-title="Variedades",CNN Español
+http://181.224.255.210:8001/play/a0q1/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Adult Swim
+http://181.224.255.210:8001/play/a0q8/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - E! Entertainment TV
+http://181.224.255.210:8001/play/a0q3/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Lifetime
+http://181.224.255.210:8001/play/a0q6/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 - Stingray Concerts HD
+http://181.224.255.210:8001/play/a0pu/index.m3u8
+#EXTINF:-1 group-title="Variedades",00 ATV HD
+http://181.224.255.210:8001/play/a0s6/index.m3u8
+#EXTINF:-1 group-title="Variedades",00_EXITOSA
+http://181.224.255.210:8001/play/a0sm/index.m3u8
+#EXTINF:-1 group-title="Variedades",00_LATINA
+http://181.224.255.210:8001/play/a0sn/index.m3u8
+#EXTINF:-1 group-title="Variedades",1.2 - WILLAX HD
+http://181.224.255.210:8001/play/a0s7/index.m3u8
+#EXTINF:-1 group-title="Variedades",3.3 - PANAMERICANA HD
+http://181.224.255.210:8001/play/a0s5/index.m3u8
+#EXTINF:-1 group-title="Variedades",3.4 America TV HD
+http://181.224.255.210:8001/play/a0pj/index.m3u8
+#EXTINF:-1 group-title="Variedades",3.5 RPP
+http://181.224.255.210:8001/play/a0r8/index.m3u8
+#EXTINF:-1 group-title="Variedades",39 TV
+http://181.224.255.210:8001/play/axrv/index.m3u8
+#EXTINF:-1 group-title="Variedades",4.1 Latina HD
+http://181.224.255.210:8001/play/a0pk/index.m3u8
+#EXTINF:-1 group-title="Variedades",A&E HD
+http://181.224.255.210:8001/play/a0edfhg/index.m3u8
+#EXTINF:-1 group-title="Variedades",A1 TV
+http://181.224.255.210:8001/play/a0rz/index.m3u8
+#EXTINF:-1 group-title="Variedades",AMC HD
+http://181.224.255.210:8001/play/a0f7/index.m3u8
+#EXTINF:-1 group-title="Variedades",AMC Series
+http://181.224.255.210:8001/play/a0qn/index.m3u8
+#EXTINF:-1 group-title="Variedades",ATV
+http://181.224.255.210:8001/play/a0r7/index.m3u8
+#EXTINF:-1 group-title="Variedades",AXN HD
+http://181.224.255.210:8001/play/a0m8/index.m3u8
+#EXTINF:-1 group-title="Variedades",Animal Planet HD
+http://181.224.255.210:8001/play/a0lz/index.m3u8
+#EXTINF:-1 group-title="Variedades",Antena 3
+http://181.224.255.210:8001/play/a0rc/index.m3u8
+#EXTINF:-1 group-title="Variedades",Atres Series
+http://181.224.255.210:8001/play/a0rm/index.m3u8
+#EXTINF:-1 group-title="Variedades",BBC News
+http://181.224.255.210:8001/play/a0ra/index.m3u8
+#EXTINF:-1 group-title="Variedades",BETHEL
+http://181.224.255.210:8001/play/a0fv/index.m3u8
+#EXTINF:-1 group-title="Variedades",Baby TV
+http://181.224.255.210:8001/play/a0pz/index.m3u8
+#EXTINF:-1 group-title="Variedades",CNN International
+http://181.224.255.210:8001/play/a0px/index.m3u8
+#EXTINF:-1 group-title="Variedades",CR TV
+http://181.224.255.210:8001/play/a0rt/index.m3u8
+#EXTINF:-1 group-title="Variedades",Cartoon Network HD
+http://181.224.255.210:8001/play/a0py/index.m3u8
+#EXTINF:-1 group-title="Variedades",Cartoonito
+http://181.224.255.210:8001/play/a0ml/index.m3u8
+#EXTINF:-1 group-title="Variedades",Cinecanal HD
+http://181.224.255.210:8001/play/a0ob/index.m3u8
+#EXTINF:-1 group-title="Variedades",Cinemax HD
+http://181.224.255.210:8001/play/a0mk/index.m3u8
+#EXTINF:-1 group-title="Variedades",Comedy Central HD
+http://181.224.255.210:8001/play/a0ew/index.m3u8
+#EXTINF:-1 group-title="Variedades",DHE HD
+http://181.224.255.210:8001/play/a0nt/index.m3u8
+#EXTINF:-1 group-title="Variedades",DW Espaæol
+http://181.224.255.210:8001/play/a0rj/index.m3u8
+#EXTINF:-1 group-title="Variedades",De PelŦcula
+http://181.224.255.210:8001/play/a0qy/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery Channel  HD
+http://181.224.255.210:8001/play/a0m0/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery Kids HD
+http://181.224.255.210:8001/play/a0pv/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery Science
+http://181.224.255.210:8001/play/a0mo/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery Theater HD
+http://181.224.255.210:8001/play/a0fc/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery Turbo
+http://181.224.255.210:8001/play/a0q2/index.m3u8
+#EXTINF:-1 group-title="Variedades",Discovery World HD
+http://181.224.255.210:8001/play/a0lt/index.m3u8
+#EXTINF:-1 group-title="Variedades",Disney Channel HD
+http://181.224.255.210:8001/play/a0oe/index.m3u8
+#EXTINF:-1 group-title="Variedades",Disney Jr.
+http://181.224.255.210:8001/play/a0ny/index.m3u8
+#EXTINF:-1 group-title="Variedades",Distrito Comedia
+http://181.224.255.210:8001/play/a0r2/index.m3u8
+#EXTINF:-1 group-title="Variedades",EWTN
+http://181.224.255.210:8001/play/a0ow/index.m3u8
+#EXTINF:-1 group-title="Variedades",El Gourmet HD
+http://181.224.255.210:8001/play/a0ex/index.m3u8
+#EXTINF:-1 group-title="Variedades",Enlace
+http://181.224.255.210:8001/play/a0q7/index.m3u8
+#EXTINF:-1 group-title="Variedades",Eurochannel
+http://181.224.255.210:8001/play/a0rd/index.m3u8
+#EXTINF:-1 group-title="Variedades",Europa Europa
+http://181.224.255.210:8001/play/a0qx/index.m3u8
+#EXTINF:-1 group-title="Variedades",Exitosa TV
+http://181.224.255.210:8001/play/a0so/index.m3u8
+#EXTINF:-1 group-title="Variedades",FX HD
+http://181.224.255.210:8001/play/a0ge/index.m3u8
+#EXTINF:-1 group-title="Variedades",Film&Arts
+http://181.224.255.210:8001/play/a0ql/index.m3u8
+#EXTINF:-1 group-title="Variedades",Food Network
+http://181.224.255.210:8001/play/a0om/index.m3u8
+#EXTINF:-1 group-title="Variedades",France 24
+http://181.224.255.210:8001/play/a0rh/index.m3u8
+#EXTINF:-1 group-title="Variedades",Global
+http://181.224.255.210:8001/play/a0r9/index.m3u8
+#EXTINF:-1 group-title="Variedades",Golden
+http://181.224.255.210:8001/play/a0qv/index.m3u8
+#EXTINF:-1 group-title="Variedades",Golden Edge
+http://181.224.255.210:8001/play/a0qu/index.m3u8
+#EXTINF:-1 group-title="Variedades",Golden HD
+http://181.224.255.210:8001/play/a0qg/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO 2
+http://181.224.255.210:8001/play/a0r0/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO Family HD
+http://181.224.255.210:8001/play/a0nv/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO HD
+http://181.224.255.210:8001/play/a0f161/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO Mundi
+http://181.224.255.210:8001/play/a0rf/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO POP
+http://181.224.255.210:8001/play/a0on/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO Plus
+http://181.224.255.210:8001/play/a0qz/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO Signature
+http://181.224.255.210:8001/play/a0re/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO XTREME HD
+http://181.224.255.210:8001/play/a0nw/index.m3u8
+#EXTINF:-1 group-title="Variedades",HBO Xtreme HD
+http://181.224.255.210:8001/play/a0oo/index.m3u8
+#EXTINF:-1 group-title="Variedades",HEI HD
+http://181.224.255.210:8001/play/a0sg/index.m3u8
+#EXTINF:-1 group-title="Variedades",HGTV
+http://181.224.255.210:8001/play/a0mp/index.m3u8
+#EXTINF:-1 group-title="Variedades",HTV
+http://181.224.255.210:8001/play/a0qo/index.m3u8
+#EXTINF:-1 group-title="Variedades",History 2
+http://181.224.255.210:8001/play/a0qh/index.m3u8
+#EXTINF:-1 group-title="Variedades",History Channel HD
+http://181.224.200.5:2277/play/a02b/index.m3u8
+#EXTINF:-1 group-title="Variedades",Home & Health HD
+http://181.224.255.210:8001/play/a0st/index.m3u8
+#EXTINF:-1 group-title="Variedades",ID HD
+http://181.224.255.210:8001/play/a0m9/index.m3u8
+#EXTINF:-1 group-title="Variedades",Kanal D Drama
+http://181.224.255.210:8001/play/a0sq/index.m3u8
+#EXTINF:-1 group-title="Variedades",Las Estrellas HD
+http://181.224.255.210:8001/play/a0se/index.m3u8
+#EXTINF:-1 group-title="Variedades",Love Nature
+http://181.224.255.210:8001/play/a0sr/index.m3u8
+#EXTINF:-1 group-title="Variedades",MTV HD
+http://181.224.255.210:8001/play/a0f9/index.m3u8
+#EXTINF:-1 group-title="Variedades",NTN24
+http://181.224.255.210:8001/play/a0qp/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nat Geo HD
+http://181.224.255.210:8001/play/a0m2/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nick HD
+http://181.224.255.210:8001/play/a0fm/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nick Jr
+http://181.224.255.210:8001/play/a0mm/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nick Music
+http://181.224.255.210:8001/play/a0qj/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nickelodeon HD
+http://181.224.255.210:8001/play/a0ol/index.m3u8
+#EXTINF:-1 group-title="Variedades",Nuestra Tele
+http://181.224.255.210:8001/play/a0qi/index.m3u8
+#EXTINF:-1 group-title="Variedades",OROMAR TV
+http://181.224.255.210:8001/play/a0r4/index.m3u8
+#EXTINF:-1 group-title="Variedades",POPU TV
+http://181.224.255.210:8001/play/a0sh/index.m3u8
+#EXTINF:-1 group-title="Variedades",Panamericana
+http://181.224.255.210:8001/play/a0r6/index.m3u8
+#EXTINF:-1 group-title="Variedades",Pasiones HD
+http://181.224.255.210:8001/play/a0s0/index.m3u8
+#EXTINF:-1 group-title="Variedades",SUMAC
+http://181.224.255.210:8001/play/a0rs/index.m3u8
+#EXTINF:-1 group-title="Variedades",Sony HD
+http://181.224.255.210:8001/play/a0oc/index.m3u8
+#EXTINF:-1 group-title="Variedades",Space HD
+http://181.224.255.210:8001/play/a0ma/index.m3u8
+#EXTINF:-1 group-title="Variedades",Star Channel HD
+http://181.224.255.210:8001/play/a0oh/index.m3u8
+#EXTINF:-1 group-title="Variedades",Studio Universal HD
+http://181.224.255.210:8001/play/a0sc/index.m3u8
+#EXTINF:-1 group-title="Variedades",Sun Channel HD
+http://181.224.255.210:8001/play/a0nx/index.m3u8
+#EXTINF:-1 group-title="Variedades",TCM
+http://181.224.255.210:8001/play/a0qw/index.m3u8
+#EXTINF:-1 group-title="Variedades",TELE LIMA
+http://181.224.255.210:8001/play/a0rp/index.m3u8
+#EXTINF:-1 group-title="Variedades",TLC
+http://181.224.255.210:8001/play/a0mn/index.m3u8
+#EXTINF:-1 group-title="Variedades",TNT HD
+http://181.224.255.210:8001/play/a0oa/index.m3u8
+#EXTINF:-1 group-title="Variedades",TNT Novelas HD
+http://181.224.255.210:8001/play/a0lv/index.m3u8
+#EXTINF:-1 group-title="Variedades",TNT Series HD
+http://181.224.255.210:8001/play/a0ls/index.m3u8
+#EXTINF:-1 group-title="Variedades",TV Perœ
+http://181.224.255.210:8001/play/a0ss/index.m3u8
+#EXTINF:-1 group-title="Variedades",TVE
+http://181.224.255.210:8001/play/a0q9/index.m3u8
+#EXTINF:-1 group-title="Variedades",Teen Nick
+http://181.224.255.210:8001/play/a0qk/index.m3u8
+#EXTINF:-1 group-title="Variedades",Telemundo
+http://181.224.255.210:8001/play/a0ot/index.m3u8
+#EXTINF:-1 group-title="Variedades",Tlnovelas
+http://181.224.255.210:8001/play/a0qm/index.m3u8
+#EXTINF:-1 group-title="Variedades",Tooncast
+http://181.224.255.210:8001/play/a0ou/index.m3u8
+#EXTINF:-1 group-title="Variedades",UNIVERSAL CHANNEL HD
+http://181.224.255.210:8001/play/a0lp/index.m3u8
+#EXTINF:-1 group-title="Variedades",USA
+http://181.224.255.210:8001/play/a0qt/index.m3u8
+#EXTINF:-1 group-title="Variedades",Via X Esports
+http://181.224.255.210:8001/play/a0qs/index.m3u8
+#EXTINF:-1 group-title="Variedades",BeIN Sports XTRA
+https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 group-title="Variedades",WEST
+http://181.224.255.210:8001/play/a0rq/index.m3u8
+#EXTINF:-1 group-title="Variedades",Warner TV HD
+http://181.224.255.210:8001/play/a0od/index.m3u8
+#EXTINF:-1 group-title="Variedades",Willax
+http://181.224.255.210:8001/play/a0sp/index.m3u8
+#EXTINF:-1 group-title="Deportes",TUDN Mx
+https://dcs-live.mp.lura.live/server/play/p0d5L5aFqyXYNTGA/manifest.m3u8?encp=-ezGUiqbrs0PyJp08SNc0Q:ZhClFw9kpRg3kwnX-JJPT62W4avq7rKiHbEmcdlDTvTVdwjWcwrsEgJO76t4frmHkCqmK8O5N51GThd2_0nBNFrueVrynMTbfxdO_Hs-nQwcvoyNzFLg-MdAuINxqGPyph5rnknIYGIQ_bRkDC7OzZ06zwEdk6IExPQztwBV-Ly8IHGHVRVfd1xUNPdJ1kZrQ3qUlZs1884lfXqdvOcVEMEvDnizMJNREbI3vsTaznq-u1fqbyrZ9qODNgxqYC1h4vrd58bbCKEuxRcvRKvcTNM4qKXXpi3b5wmdjCz7mNuNTVpH-3Fad3YCLzpX5YQQlO9LeWFXvVjhVFghAfsW6k1jBHKxH9pp8cbPbGj3LedlJqFW5tjXmqGX8kT35SpPUJZo2CtHTakTiCDYI7Q9Rt32moxru9SMigi2gi96zG_M2p65wHnf--4fkq8Uu35CjecQZ48tz8Cu1ekVvVxiMJAV5uQBjpPvxiXj--56CkYuEju24yoclArNDTMewuJzbp07a5A3Mt8lXYhlmuwawXWj2ZS7ZrUbEOcFv0pFHwWrECeC8ToCDLjmYXyxTMfh4qeIAZk_-4BxvCC4WJLie65xGVXvfe4QpudzbrO55rUzKLABUy3BXijr15vyF8GjWAxFdu54lXVA9ZSBER32wU3ohNen6H6ZhYHbB4KAZXLVjuCkin4qi8bOjZeEFzIEw0GFuEPVZJJQl48RTYE0OQ&anvtrid=579cc69b8fb5885ba7a4ac41719cff1b&anvauth=tb=0~te=1781829929~sgn=6643b278909c3bf3beb5c0ce1baafd3d7a1b879cae94230f01a3666a8515b080&t=1781829839#7a698b75a33351013c49549372f213b0bdcdb60bc90307bbee5501ab2ac9b932
+#EXTINF:-1 group-title="Deportes",DSPORTS
+http://181.224.255.210:8001/play/a0s8/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS (opción2)
+http://181.78.0.107:8006/play/a08r/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS (opción3)
+http://181.224.255.210:8001/play/a0s8/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS +
+http://38.224.175.2:8000/play/a011/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS + ( opción2)
+http://181.78.0.107:8006/play/a07r/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS HD
+http://38.199.4.105:9999/play/1119/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS HD
+http://38.199.4.105:9999/play/1119/index.m3u8
+#EXTINF:-1 group-title="Deportes",WIN +
+http://181.78.0.107:8006/play/a06r/index.m3u8
+http://38.224.175.2:8000/play/a0l4/index.m3u8
+#EXTINF:-1 group-title="Deportes",DSPORTS 2
+http://38.224.175.2:8000/play/a066/index.m3u8
+#EXTINF:-1 group-title="Deportes",TNT Sports Premiun HD
+http://38.199.4.105:9999/play/a0hy/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN HD
+http://38.199.4.105:9999/play/a0wv/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 2 HD
+http://38.199.4.105:9999/play/a0md/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 3 HD
+http://38.199.4.105:9999/play/a0n1/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 4 HD
+http://38.199.4.105:9999/play/a0ms/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 5 HD
+http://38.199.4.105:9999/play/a0mw/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 6 HD
+http://38.199.4.105:9999/play/a0gr/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN 7 HD
+http://38.199.4.105:9999/play/a0hj/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN Premium HD
+http://38.224.175.2:8000/play/a05g/index.m3u8
+#EXTINF:-1 group-title="Deportes",ESPN (Premium HD)
+http://38.199.4.105:9999/play/a0i9/index.m3u8
+#EXTINF:-1 group-title="Deportes",Movistar Deportes
+http://38.224.175.2:8000/play/a08o/index.m3u8
+#EXTINF:-1 group-title="Deportes",Golf Channel
+http://38.224.175.2:8000/play/a03s/index.m3u8
+#EXTINF:-1 group-title="Deportes",L1 MAX
+http://38.224.175.2:8000/play/a07e/index.m3u8
+#EXTINF:-1 group-title="Deportes",1118. LIGA 1 MAX
+http://38.199.4.105:9999/play/1118/index.m3u8
+#EXTINF:-1 group-title="Deportes",LIGA 1
+http://38.224.175.2:8000/play/a07s/index.m3u8
+#EXTINF:-1 group-title="Deportes",BeIN Sports XTRA
+https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 group-title="Deportes",REAL MADRID
+http://38.224.175.2:8000/play/a00x/index.m3u8
+#EXTINF:-1 group-title="Deportes",Via X Esports
+http://38.224.175.2:8000/play/a03t/index.m3u8
+#EXTINF:-1 group-title="Deportes",TyC
+http://38.199.4.105:9999/play/a105/index.m3u8
+#EXTINF:-1 group-title="Deportes",00 T&C SPORTS
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
+#EXTINF:-1 group-title="Deportes",14.2 - LIGA UNO HD
+http://181.224.255.210:8001/play/a0sf/index.m3u8
+#EXTINF:-1 group-title="Deportes",CO: WIN SPORTS
+http://cord-cutter.net:8080/mwd3pG/937806/320377
+#EXTINF:-1 group-title="Motor",00 - El Garage
+https://stream1.sersat.com/hls/garagetv.m3u8#b06f1fofac96a94ef4604f24c9f9b020702d219ac07a2532bd99a9b9b73b3c1f4
+#EXTINF:-1 group-title="Series",Te encontraré 1
+https://data-limit-c.solo-latino.com/90ac7d816ae871f18125e7e7c4590102/718ce102f4a64e4a96c4f97c1d76e8c1-microframe-sd.m3u8?hdnts=exp=1783717077_acl=/90ac7d816ae871f18125e7e7c4590102/*_hmac=2d030c6af427b3d8a08d44c6af10f74bd8d45a22a4e50c16f236a5f66ffbe2ec
+#EXTINF:-1 group-title="Series",Te encontraré 2
+https://data-limit-c.solo-latino.com/a045a68c6ae871f18125e7e7c4590102/f1c96a0f30d2425683700b3bd36fdd3d-microframe-sd.m3u8?hdnts=exp=1783725909_acl=/a045a68c6ae871f18125e7e7c4590102/*_hmac=22a5ce774a1052ce4f4c77abf46294c02b69c0686dc0cd8a3de9e7dfb11360ef
+#EXTINF:-1 group-title="Series",Te encontraré 3
+https://data-limit-c.solo-latino.com/10d29b956ae871f1a3aaf6f7f45a0102/d4448ff6b564486b8ba8ee83d43dbc84-microframe-sd.m3u8?hdnts=exp=1783710403_acl=/10d29b956ae871f1a3aaf6f7f45a0102/*_hmac=8550fb2ccb0cd007ceca4f6d5fef0f84fe7c81dcc5ef9b042183287fc021d2aa
+#EXTINF:-1 group-title="Series",Te encontraré 4
+https://data-limit-c.solo-latino.com/201bae986ae871f1853ae6e7c74a0102/1e2ad8e9f28843b58429333d747cfa54-microframe-sd.m3u8?hdnts=exp=1783733676_acl=/201bae986ae871f1853ae6e7c74a0102/*_hmac=b4158e10dd281b068ad51826e830d13dc947ca09d5eedf0b55795f2840e0000a
+#EXTINF:-1 group-title="Series",Te encontraré 5
+https://data-limit-c.solo-latino.com/40e458d76ae871f1a514f6f7d6580102/1800cccaf6594bd4956d6d72f0805147-microframe-sd.m3u8?hdnts=exp=1783687821_acl=/40e458d76ae871f1a514f6f7d6580102/*_hmac=7ad6135c5e4a5faf0220d07c81392d03143144e59e9524c84c5e7aed12880a62
+#EXTINF:-1 group-title="Series",Te encontraré 6
+https://data-limit-c.solo-latino.com/802dcc166ae971f1a5bff6f7c4590102/d47515fc37ba4bf28cb5e886a222aeb5-microframe-sd.m3u8?hdnts=exp=1783733727_acl=/802dcc166ae971f1a5bff6f7c4590102/*_hmac=5f00d7c218f19e943033af70a49de98563fd1804b84c0bb16dfd1f9026cb68c7
+#EXTINF:-1 group-title="Series",Te encontraré 7
+https://data-limit-c.solo-latino.com/507d27f16ae871f1a5bff6f7c4590102/67067442458c4caa8dad99a7d85b4855-microframe-sd.m3u8?hdnts=exp=1783708795_acl=/507d27f16ae871f1a5bff6f7c4590102/*_hmac=486d990eee8603d1b66e9caeead4ed8b8d6f41ad9a798d8e9bbb54312b195123
+#EXTINF:-1 group-title="Series",Te encontraré 8
+https://data-limit-c.solo-latino.com/100223106ae971f1a514f6f7d6580102/939e1f0ea52b4291a38679f6fd90910b-microframe-sd.m3u8?hdnts=exp=1783718321_acl=/100223106ae971f1a514f6f7d6580102/*_hmac=62ef0409e1f5fbe223b284a2cad3345919a308a10f3be48682f3e803bda7444a
+#EXTINF:-1 group-title="Movies",Toy History 5 2026 calidad cine
+https://vod-limit-02.playspelis.com/b03009916b8f71f180ace6f6c44a0102/9fe7c051bd2946259361f3a2fd51ec65-microframe-sd.m3u8?hdnts=exp=1783732744_acl=/b03009916b8f71f180ace6f6c44a0102/*_hmac=5e98bcff958e0993fde0e280cae993c8b81e7a118b429b3450cdfa5d3a404867
+#EXTINF:-1 group-title="Movies",El diablo viste de Prada 2 2026
+https://data-limit-c.solo-latino.com/c02a2a3d742d71f1818fe6f6c55a0102/e8ad90998465472aad8a435951a20fd1-microframe-sd.m3u8?hdnts=exp=1783711778_acl=/c02a2a3d742d71f1818fe6f6c55a0102/*_hmac=51e397c2969fadf0947c95f6415fe58e9ad8f51f4c3fbda1fbe82f18215600e9
