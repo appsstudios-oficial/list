@@ -42,13 +42,64 @@ HTML_INDEX = """
 </html>
 """
 
+def parsear_m3u_a_xtream():
+    """Función interna para convertir tu M3U en formato de canales para las Apps"""
+    try:
+        respuesta = requests.get(URL_LISTA_GITHUB, timeout=10)
+        if respuesta.status_code != 200:
+            return [], []
+        
+        lineas = respuesta.text.splitlines()
+        canales = []
+        categorias = set()
+        
+        info_canal = {}
+        id_canal = 1
+        
+        for linea in lineas:
+            linea = linea.strip()
+            if linea.startswith("#EXTINF:"):
+                # Intentamos extraer el nombre del canal y la categoría
+                info_canal = {"num": id_canal, "category_id": "1", "stream_type": "live"}
+                nombre = linea.split(",")[-1] if "," in linea else f"Canal {id_canal}"
+                info_canal["name"] = nombre
+                
+                # Buscar categoría si existe en el tag group-title
+                if 'group-title="' in linea:
+                    cat = linea.split('group-title="')[1].split('"')[0]
+                    categorias.add(cat)
+                    info_canal["category_name"] = cat
+                else:
+                    categorias.add("General")
+                    info_canal["category_name"] = "General"
+                    
+            elif linea.startswith("http://") or linea.startswith("https://"):
+                if info_canal:
+                    info_canal["url"] = linea
+                    info_canal["stream_id"] = id_canal
+                    canales.append(info_canal)
+                    id_canal += 1
+                    info_canal = {}
+                    
+        # Formatear las categorías para la app
+        cats_json = [{"category_id": str(i+1), "category_name": cat, "parent_id": 0} for i, cat in enumerate(categorias)]
+        
+        # Mapear los canales a su ID de categoría correspondiente
+        for canal in canales:
+            for i, cat in enumerate(categorias):
+                if canal.get("category_name") == cat:
+                    canal["category_id"] = str(i+1)
+                    
+        return cats_json, canales
+    except:
+        return [], []
+
 @app.route('/')
 def inicio():
     host_actual = request.host_url.rstrip('/')
     link_final = f"{host_actual}/get.php?username={USUARIO_VALIDO}&password={CLAVE_VALIDA}"
     return render_template_string(HTML_INDEX, link_protegido=link_final)
 
-# COMPATIBILIDAD 1: Formato enlace M3U largo
 @app.route('/get.php')
 def obtener_lista_directa():
     user = request.args.get('username')
@@ -64,13 +115,10 @@ def obtener_lista_directa():
 
     try:
         respuesta = requests.get(URL_LISTA_GITHUB, timeout=10)
-        if respuesta.status_code != 200:
-            return "Error origen", 500
         return Response(respuesta.text, mimetype='application/x-mpegurl')
     except:
         return "Error interno", 500
 
-# COMPATIBILIDAD 2: El motor que piden las Apps (Xtream Codes API)
 @app.route('/player_api.php')
 def api_xtream_codes():
     user = request.args.get('username')
@@ -80,7 +128,6 @@ def api_xtream_codes():
     if user != USUARIO_VALIDO or password != CLAVE_VALIDA:
         return jsonify({"user_info": {"auth": 0}}), 403
 
-    # Si la app solo pide validar las credenciales al iniciar sesión
     if not action:
         return jsonify({
             "user_info": {
@@ -88,20 +135,54 @@ def api_xtream_codes():
                 "status": "Active",
                 "username": user,
                 "password": password,
-                "expiry_date": "1798761600", # Año 2026+
+                "expiry_date": "1798761600",
                 "is_trial": "0",
                 "active_cons": "1",
-                "max_connections": "2"
+                "max_connections": "5"
             },
-            "server_info": {
-                "url": request.host,
-                "port": "80",
-                "server_protocol": "http"
-            }
+            "server_info": {"url": request.host, "port": "80", "server_protocol": "http"}
         })
     
-    # Si la app pide las categorías de canales, le enviamos un formato simulado básico
+    cats, canales = parsear_m3u_a_xtream()
+    
+    if action == "get_live_categories":
+        return jsonify(cats)
+        
+    if action == "get_live_streams":
+        # Formateamos la respuesta de canales que exige la API Xtream
+        streams = []
+        for c in canales:
+            streams.append({
+                "num": c["num"],
+                "name": c["name"],
+                "stream_type": "live",
+                "stream_id": c["stream_id"],
+                "stream_icon": "",
+                "epg_channel_id": None,
+                "added": "1625443200",
+                "category_id": c["category_id"],
+                "custom_sid": "",
+                "tv_archive": 0,
+                "direct_source": c["url"],
+                "tv_archive_duration": 0
+            })
+        return jsonify(streams)
+        
     return jsonify([])
+
+# Esta ruta ataja la reproducción directa cuando la app pide el stream por ID
+@app.route('/live/<username>/<password>/<int:stream_id>.ts')
+@app.route('/live/<username>/<password>/<int:stream_id>')
+def reproducir_stream_xtream(username, password, stream_id):
+    if username != USUARIO_VALIDO or password != CLAVE_VALIDA:
+        return "No autorizado", 403
+    
+    _, canales = parsear_m3u_a_xtream()
+    for c in canales:
+        if c["stream_id"] == stream_id:
+            return redirect(c["url"], code=302)
+            
+    return "Canal no encontrado", 404
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
