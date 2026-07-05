@@ -1,17 +1,17 @@
 import os
 import requests
-from flask import Flask, Response, request, redirect, render_template_string
+from flask import Flask, Response, request, redirect, render_template_string, jsonify
 
 app = Flask(__name__)
 
 # Tu enlace real de GitHub listo para producción
 URL_LISTA_GITHUB = "https://appsstudios-oficial.github.io/list/list.m3u"
 
-# --- CREDENCIALES DE ACCESO (Podés cambiarlas cuando quieras) ---
+# --- CREDENCIALES DE ACCESO ---
 USUARIO_VALIDO = "vip2026"
 CLAVE_VALIDA = "9876"
 
-# --- TU LANDING PAGE DIRECTA DESDE RENDER ---
+# --- TU LANDING PAGE ---
 HTML_INDEX = """
 <!DOCTYPE html>
 <html lang="es">
@@ -44,37 +44,64 @@ HTML_INDEX = """
 
 @app.route('/')
 def inicio():
-    """Muestra la Landing Page con el formato estructurado de credenciales"""
     host_actual = request.host_url.rstrip('/')
     link_final = f"{host_actual}/get.php?username={USUARIO_VALIDO}&password={CLAVE_VALIDA}"
     return render_template_string(HTML_INDEX, link_protegido=link_final)
 
+# COMPATIBILIDAD 1: Formato enlace M3U largo
 @app.route('/get.php')
 def obtener_lista_directa():
     user = request.args.get('username')
     password = request.args.get('password')
     
-    # Validación de usuario y contraseña
     if user != USUARIO_VALIDO or password != CLAVE_VALIDA:
-        return "Acceso denegado: Credenciales inválidas", 403
+        return "Acceso denegado", 403
 
-    # Bloqueo estricto de navegadores comunes
     user_agent = request.headers.get('User-Agent', '').lower()
     navegadores_web = ['chrome', 'firefox', 'safari', 'brave', 'opera']
     if any(nav in user_agent for nav in navegadores_web):
         return redirect("/", code=302)
 
     try:
-        # Descarga la lista tal cual está en tu GitHub (con enlaces directos)
         respuesta = requests.get(URL_LISTA_GITHUB, timeout=10)
         if respuesta.status_code != 200:
-            return "Error al conectar con la base de datos externa", 500
-        
-        # Le entrega el contenido limpio a las aplicaciones (SSIPTV, IPTV Smarters, etc.)
+            return "Error origen", 500
         return Response(respuesta.text, mimetype='application/x-mpegurl')
-        
-    except Exception as e:
-        return "Error interno del servidor", 500
+    except:
+        return "Error interno", 500
+
+# COMPATIBILIDAD 2: El motor que piden las Apps (Xtream Codes API)
+@app.route('/player_api.php')
+def api_xtream_codes():
+    user = request.args.get('username')
+    password = request.args.get('password')
+    action = request.args.get('action')
+
+    if user != USUARIO_VALIDO or password != CLAVE_VALIDA:
+        return jsonify({"user_info": {"auth": 0}}), 403
+
+    # Si la app solo pide validar las credenciales al iniciar sesión
+    if not action:
+        return jsonify({
+            "user_info": {
+                "auth": 1,
+                "status": "Active",
+                "username": user,
+                "password": password,
+                "expiry_date": "1798761600", # Año 2026+
+                "is_trial": "0",
+                "active_cons": "1",
+                "max_connections": "2"
+            },
+            "server_info": {
+                "url": request.host,
+                "port": "80",
+                "server_protocol": "http"
+            }
+        })
+    
+    # Si la app pide las categorías de canales, le enviamos un formato simulado básico
+    return jsonify([])
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
